@@ -1,0 +1,245 @@
+html {
+	/* ff 3.6+ */
+	background: -moz-radial-gradient(
+		circle at 92% 92%,
+		rgba(0, 40, 83, 1) 0%,
+		rgba(4, 18, 40, 1) 100%
+	);
+
+	/* safari 5.1+,chrome 10+ */
+	background: -webkit-radial-gradient(
+		circle at 92% 92%,
+		rgba(0, 40, 83, 1) 0%,
+		rgba(4, 18, 40, 1) 100%
+	);
+
+	/* opera 11.10+ */
+	background: -o-radial-gradient(
+		circle at 92% 92%,
+		rgba(0, 40, 83, 1) 0%,
+		rgba(4, 18, 40, 1) 100%
+	);
+
+	/* ie 10+ */
+	background: -ms-radial-gradient(
+		circle at 92% 92%,
+		rgba(0, 40, 83, 1) 0%,
+		rgba(4, 18, 40, 1) 100%
+	);
+
+	/* global 92%+ browsers support */
+	background: radial-gradient(
+		circle at 92% 92%,
+		rgba(0, 40, 83, 1) 0%,
+		rgba(4, 18, 40, 1) 100%
+	);
+	padding-bottom: -2000px;
+}
+
+#root > div > main > div > div > header > div {
+	/* ff 3.6+ */
+	background: -moz-radial-gradient(
+		circle at 26% 60%,
+		rgba(0, 43, 90, 1) 0%,
+		rgba(12, 7, 107, 1) 100%
+	);
+
+	/* safari 5.1+,chrome 10+ */
+	background: -webkit-radial-gradient(
+		circle at 26% 60%,
+		rgba(0, 43, 90, 1) 0%,
+		rgba(12, 7, 107, 1) 100%
+	);
+
+	/* opera 11.10+ */
+	background: -o-radial-gradient(
+		circle at 26% 60%,
+		rgba(0, 43, 90, 1) 0%,
+		rgba(12, 7, 107, 1) 100%
+	);
+
+	/* ie 10+ */
+	background: -ms-radial-gradient(
+		circle at 26% 60%,
+		rgba(0, 43, 90, 1) 0%,
+		rgba(12, 7, 107, 1) 100%
+	);
+
+	/* global 92%+ browsers support */
+	background: radial-gradient(
+		circle at 26% 60%,
+		rgba(0, 43, 90, 1) 0%,
+		rgba(12, 7, 107, 1) 100%
+	);
+}
+
+#Card {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	height: fit-content;
+	width: fit-content;
+	background-color: rgb(6, 3, 23);
+	column-gap: 5px;
+	border-radius: 40px;
+	box-shadow: 0 0 0 5px rgb(56, 54, 65);
+}
+
+#Card
+	> div
+	> p.MuiTypography-root.MuiTypography-body1.MuiTypography-gutterBottom.css-1hkktfb-MuiTypography-root {
+	font-family: 'Ubuntu', Sans-Serif;
+}
+
+#Card > div > h3:nth-child(2) {
+	font-family: 'Open Sans', Sans-Serif;
+	background: #cfe7fa;
+	background: -webkit-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: -moz-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#Card
+	> div
+	> p.MuiTypography-root.MuiTypography-body1.MuiTypography-gutterBottom.css-1h6437a-MuiTypography-root {
+	font-family: 'Ubuntu', Sans-Serif;
+}
+#Card
+	> div
+	> p.MuiTypography-root.MuiTypography-body1.MuiTypography-gutterBottom.css-msp57n-MuiTypography-root {
+	font-family: 'Ubuntu', Sans-Serif;
+}
+
+#Card > div > h3:nth-child(8) {
+	font-family: 'Open Sans', Sans-Serif;
+	background: #cfe7fa;
+	background: -webkit-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: -moz-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#Card > div > h3:nth-child(10) {
+	font-family: 'Open Sans', Sans-Serif;
+	background: #cfe7fa;
+	background: -webkit-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: -moz-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#Card > div > button.modal {
+	font-family: 'Open Sans', Sans-Serif;
+	display: inline-block;
+	padding: 0.1rem 0.5rem;
+	border-radius: 10rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.15rem;
+	transition: all 0.3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	background-color: black;
+}
+#Card > div > button.modal:hover {
+	color: darkslateblue;
+}
+
+#Card > div > button:nth-child(14) {
+	font-family: 'Open Sans', Sans-Serif;
+	display: inline-block;
+	padding: 0.1rem 0.5rem;
+	border-radius: 10rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.15rem;
+	transition: all 0.3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	background-color: black;
+}
+
+#Card > div > button:nth-child(14):hover {
+	color: darkslateblue;
+}
+
+#strong {
+	color: white;
+}
+
+#root > div > main > div > div > header > div > p {
+	font-family: 'Ubuntu', Sans-Serif;
+}
+
+#logout {
+	font-family: 'Open Sans', Sans-Serif;
+	display: inline-block;
+	padding: 0.1rem 0.5rem;
+	border-radius: 10rem;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.15rem;
+	transition: all 0.3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	background-color: black;
+	text-align: left;
+}
+
+#nflGames {
+	font-family: 'Open Sans', Sans-Serif;
+	display: inline-block;
+	padding: 0.1rem 0.5rem;
+	border-radius: 10rem;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.15rem;
+	transition: all 0.3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	background-color: black;
+}
+#nbaGames {
+	font-family: 'Open Sans', Sans-Serif;
+	display: inline-block;
+	padding: 0.1rem 0.5rem;
+	border-radius: 10rem;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.15rem;
+	transition: all 0.3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	background-color: black;
+}
+
+#root > div > main > div > div > header > div > button:nth-child(4):hover {
+	color: darkslateblue;
+}
+
+#root > div > main > div > div > header > div > button:nth-child(1):hover {
+	color: darkslateblue;
+}
+
+#root > div > main > div > div > header > div > button:nth-child(2):hover {
+	color: darkslateblue;
+}
+
+#root > div > main > div > div.MuiBox-root.css-i9gxme > header > div > span {
+	font-family: 'Open Sans', Sans-Serif;
+}

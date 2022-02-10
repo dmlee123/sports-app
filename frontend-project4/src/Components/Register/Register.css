@@ -1,0 +1,68 @@
+#HomePage1 > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#HomePage1 > div > h3 {
+	font-size: 48px;
+	font-family: 'Open Sans', Sans-Serif;
+	background: #cfe7fa;
+	background: -webkit-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: -moz-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: underline #551a8b;
+}
+
+#HomePage1 > div > p:nth-child(2) {
+	font-family: 'Open Sans', Sans-Serif;
+	background: #cfe7fa;
+	background: -webkit-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: -moz-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#HomePage1 > div > p:nth-child(4) {
+	font-family: 'Open Sans', Sans-Serif;
+	background: #cfe7fa;
+	background: -webkit-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: -moz-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#HomePage1 > div > button {
+	font-family: 'Open Sans', Sans-Serif;
+	display: inline-block;
+	padding: 0.45rem 1.25rem;
+	border-radius: 10rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.15rem;
+	transition: all 0.3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	background-color: black;
+	display: flex;
+	align-items: center;
+}
+#HomePage1 > div > button:hover {
+	color: darkslateblue;
+}
+
+#HomePage1 > div > a > p {
+	font-family: 'Open Sans', Sans-Serif;
+	background: #cfe7fa;
+	background: -webkit-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: -moz-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

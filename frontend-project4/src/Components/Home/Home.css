@@ -1,0 +1,53 @@
+#root > div > main > div > h1 {
+	font-size: 100px;
+	font-family: 'Ubuntu', Sans-Serif;
+	font-size: 48px;
+	background: #008080;
+	background: -webkit-linear-gradient(
+		to left,
+		#008080 0%,
+		#ffffff 25%,
+		#05c1ff 50%,
+		#ffffff 75%,
+		#005757 100%
+	);
+	background: -moz-linear-gradient(
+		to left,
+		#008080 0%,
+		#ffffff 25%,
+		#05c1ff 50%,
+		#ffffff 75%,
+		#005757 100%
+	);
+	background: linear-gradient(
+		to left,
+		#008080 0%,
+		#ffffff 25%,
+		#05c1ff 50%,
+		#ffffff 75%,
+		#005757 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#root > div > main > div > a > p {
+	font-size: 25px;
+	font-family: 'Open Sans', Sans-Serif;
+	background: #cfe7fa;
+	background: -webkit-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: -moz-linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 850px) {
+	#root > div > main > div > h1 {
+		font-size: 5vw;
+	}
+
+	#root > div > main > div > a > p {
+		font-size: 4vw;
+	}
+}

@@ -63,7 +63,7 @@ function HomePage() {
 					<Link to='/Register'> Don't have an account? Register now</Link>
 				</p>
 				<p>
-					<Link to ="/dashboard">Login as Guest</Link>
+					<Link to ="/dashboard">Login as guest</Link>
 				</p>
 			</motion.div>
 		</motion.div>
